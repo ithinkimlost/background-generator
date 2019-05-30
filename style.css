@@ -1,0 +1,66 @@
+body {
+		background-image: url(header.jpg);	
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+
+.container{
+/*	display: flex;
+	border: 5px solid red;	*/
+
+	position: relative;
+	top: 50%
+	transform: translateY(-50%);
+
+}
+
+#container{
+	padding: 5% 0;
+	border: 3px solid white;
+}
+
+#child{
+	padding: 22% 0;
+		border: 3px solid white;
+}
+
+#buttonparent{
+padding: 5% 0;
+
+}
+#button{
+	
+text-align: center;
+vertical-align: bottom;
+
+
+}
+
+.btn-primary {
+	font-family: Montserrat;
+	background-color: red;
+	text-transform: uppercase;
+}
+
+h1	{
+	
+	color: white;
+	font-family: Montserrat;
+
+	text-transform: uppercase;
+	
+	font-size: 200%;
+	transition: all 1s;
+	text-align: center;
+	margin: auto;
+
+}
+
+#h1 {
+	display: flex;
+	align-items: center;
+}
+
+h1:hover {
+	transform: scale(1.1);
